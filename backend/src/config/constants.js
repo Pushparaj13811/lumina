@@ -22,6 +22,10 @@ const constants = {
   APPLE_KEY_ID: process.env.APPLE_KEY_ID || 'your_apple_key_id',
   APPLE_PRIVATE_KEY: process.env.APPLE_PRIVATE_KEY || 'your_apple_private_key',
 
+  // Add these lines to src/config/constants.js
+KAFKA_HOST: process.env.KAFKA_HOST || 'localhost', // Default Kafka host
+KAFKA_PORT: process.env.KAFKA_PORT || 9092, // Default Kafka port
+
   // Other constants
   PORT: process.env.PORT || 3000, // Default port for the application
   API_VERSION: '/api/v1', // API versioning
